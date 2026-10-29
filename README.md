@@ -49,9 +49,6 @@ At the core, I'm fascinated by **brains and thinking systems**—whether they ar
 ### 🌐 Let's Connect!
 
 <p align="center">
-  <a href="https://celestios.github.io">
-    <img src="https://img.shields.io/badge/Website-Celestios-161B22?style=for-the-badge&logo=google-chrome&logoColor=58A6FF" alt="Website"/>
-  </a>
   <a href="https://t.me/SH_ID">
     <img src="https://img.shields.io/badge/Telegram-@SH__ID-161B22?style=for-the-badge&logo=telegram&logoColor=26A5E4" alt="Telegram"/>
   </a>
