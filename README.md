@@ -1,3 +1,10 @@
+<div align="center">
+  <img src="assets/header.svg" alt="Shahin — Celestios | Biology × Software × Intelligence" width="100%">
+</div>
+
+---
+
+
 # Hey there, I'm Shahin (Celestios) 👋
 
 I'm a Cellular & Molecular Biology student who fell down the rabbit hole of building software. 
@@ -41,11 +48,14 @@ At the core, I'm fascinated by **brains and thinking systems**—whether they ar
 
 ### 🌐 Let's Connect!
 
-<p align="left">
-  <a href="https://celestios.github.io" target="_blank">
-    <img src="https://img.shields.io/badge/Personal_Page-celestios.github.io-0D1117?style=for-the-badge&logo=google-chrome&logoColor=58A6FF" alt="Website" />
+<p align="center">
+  <a href="https://celestios.github.io">
+    <img src="https://img.shields.io/badge/Website-Celestios-161B22?style=for-the-badge&logo=google-chrome&logoColor=58A6FF" alt="Website"/>
   </a>
-  <a href="mailto:MY_EMAIL_HERE">
-    <img src="https://img.shields.io/badge/Say_Hello-Email_Me-161B22?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email" />
+  <a href="https://t.me/SH_ID">
+    <img src="https://img.shields.io/badge/Telegram-@SH__ID-161B22?style=for-the-badge&logo=telegram&logoColor=26A5E4" alt="Telegram"/>
+  </a>
+  <a href="mailto:shahin.id5638@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact_Me-161B22?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Email"/>
   </a>
 </p>
