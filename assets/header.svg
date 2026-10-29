@@ -1,1 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2684FF"/>
+      <stop offset="55%" stop-color="#6042FF"/>
+      <stop offset="100%" stop-color="#B34DFF"/>
+    </linearGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#EAF2FF"/>
+      <stop offset="100%" stop-color="#A8BFFF"/>
+    </linearGradient>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M24 0H0V24" fill="none" stroke="#17305D" stroke-width=".5" opacity=".4"/>
+    </pattern>
+  </defs>
 
+  <!-- Background and outer frame -->
+  <rect width="1200" height="340" rx="16" fill="#070D20"/>
+  <rect width="1200" height="340" rx="16" fill="url(#grid)"/>
+  <rect x="8" y="8" width="1184" height="324" rx="13"
+        fill="none" stroke="url(#edge)" stroke-width="2"/>
+  <path d="M25 38V25H85 M1115 25H1175V38
+           M25 302V315H85 M1115 315H1175V302"
+        fill="none" stroke="url(#edge)" stroke-width="2"/>
+
+  <!-- Left panel: hybrid biological/electrical brain, ASCII-inspired -->
+  <g font-family="monospace" font-size="12" fill="#388BFF">
+    <text x="35" y="48" fill="#A78BFA" font-size="9">NEURAL INTERFACE // 001</text>
+    <text x="35" y="79">          .-''''-.</text>
+    <text x="35" y="94">       .-'  .--.  '-.</text>
+    <text x="35" y="109">      /  .-(    )-.  \</text>
+    <text x="35" y="124">     / .'  \ '--' / '. \</text>
+    <text x="35" y="139">    | / .--.  .--. \  |</text>
+    <text x="35" y="154">    | |(    )(    )| |</text>
+    <text x="35" y="169">    |  \ '--'  '--' / |</text>
+    <text x="35" y="184">     \  '._  /\ _.'  /</text>
+    <text x="35" y="199">      '-.  \/  \/ .-'</text>
+    <text x="35" y="214">         '-.____.-'</text>
+  </g>
+
+  <!-- Electrical pathways -->
+  <g fill="none" stroke="#8B5CF6" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M174 83H195V67H214"/>
+    <path d="M183 116H205V103H224"/>
+    <path d="M184 148H211V148H228"/>
+    <path d="M178 180H204V194H224"/>
+    <path d="M168 210H193V230H216"/>
+    <path d="M144 73V55H162"/>
+    <path d="M144 221V241H164"/>
+    <path d="M207 67H217 M217 62V72"/>
+    <path d="M217 103H227 M227 98V108"/>
+    <path d="M221 148H231 M231 143V153"/>
+    <path d="M217 194H227 M227 189V199"/>
+    <path d="M209 230H219 M219 225V235"/>
+  </g>
+  <g fill="#070D20" stroke="#388BFF" stroke-width="1.5">
+    <circle cx="214" cy="67" r="3"/>
+    <circle cx="224" cy="103" r="3"/>
+    <circle cx="228" cy="148" r="3"/>
+    <circle cx="224" cy="194" r="3"/>
+    <circle cx="216" cy="230" r="3"/>
+  </g>
+
+  <path d="M250 38V302" stroke="#263B72" stroke-width="1"/>
+
+  <!-- Center identity -->
+  <text x="275" y="51" font-family="monospace" font-size="10"
+        letter-spacing="3" fill="#7C8FB8">BIOLOGY / COMPUTATION / COGNITION</text>
+
+  <text x="275" y="104" font-family="Arial, Helvetica, sans-serif"
+        font-size="43" font-weight="700" letter-spacing="5"
+        fill="url(#name)">SHAHIN</text>
+
+  <text x="278" y="132" font-family="monospace" font-size="19"
+        font-weight="600" letter-spacing="6" fill="#796BFF">CELESTIOS</text>
+
+  <path d="M275 148H685" stroke="url(#edge)" stroke-width="1.5"/>
+
+  <text x="275" y="178" font-family="monospace" font-size="18"
+        font-weight="600" fill="#72A7FF">Biology × Software × Intelligence</text>
+
+  <text x="275" y="202" font-family="Arial, Helvetica, sans-serif"
+        font-size="12" fill="#A9B8D6">
+    Exploring the boundary between living systems
+  </text>
+  <text x="275" y="219" font-family="Arial, Helvetica, sans-serif"
+        font-size="12" fill="#A9B8D6">
+    and computational ones.
+  </text>
+
+  <!-- Technology / discipline badges -->
+  <g font-family="monospace" font-size="10">
+    <rect x="275" y="241" width="152" height="27" rx="5"
+          fill="#102C35" stroke="#27D6C5"/>
+    <text x="351" y="258" text-anchor="middle" fill="#54E5D5">BIOLOGY</text>
+
+    <rect x="435" y="241" width="76" height="27" rx="5"
+          fill="#30251D" stroke="#DEA584"/>
+    <text x="473" y="258" text-anchor="middle" fill="#F0C4A0">RUST</text>
+
+    <rect x="519" y="241" width="88" height="27" rx="5"
+          fill="#152A49" stroke="#3776AB"/>
+    <text x="563" y="258" text-anchor="middle" fill="#76B9FF">PYTHON</text>
+
+    <rect x="615" y="241" width="94" height="27" rx="5"
+          fill="#281D46" stroke="#A78BFA"/>
+    <text x="662" y="258" text-anchor="middle" fill="#C4A7FF">PYTORCH</text>
+  </g>
+
+  <text x="275" y="294" font-family="monospace" font-size="10"
+        fill="#7385AA">SYSTEMS THINKING · KNOWLEDGE GRAPHS · AI</text>
+
+  <!-- Right contact panel -->
+  <path d="M735 38V302" stroke="#263B72" stroke-width="1"/>
+  <text x="765" y="51" font-family="monospace" font-size="10"
+        letter-spacing="3" fill="#A78BFA">CONTACT</text>
+
+  <!-- Website -->
+  <g fill="none" stroke="#4D8DFF" stroke-width="1.7">
+    <circle cx="778" cy="83" r="10"/>
+    <ellipse cx="778" cy="83" rx="4.5" ry="10"/>
+    <path d="M768 83H788 M770 77H786 M770 89H786"/>
+  </g>
+  <text x="800" y="80" font-family="monospace" font-size="12" fill="#A78BFA">WEBSITE</text>
+  <text x="800" y="98" font-family="monospace" font-size="11" fill="#72A7FF">celestios.github.io</text>
+
+  <path d="M765 115H1160" stroke="#263B72"/>
+
+  <!-- Telegram -->
+  <path d="M768 148L789 138L783 160L777 153L773 157L774 150Z"
+        fill="none" stroke="#4D8DFF" stroke-width="1.7"
+        stroke-linejoin="round"/>
+  <path d="M774 150L789 138" stroke="#4D8DFF" stroke-width="1.5"/>
+  <text x="800" y="145" font-family="monospace" font-size="12" fill="#A78BFA">TELEGRAM</text>
+  <text x="800" y="163" font-family="monospace" font-size="11" fill="#72A7FF">@SH_ID</text>
+
+  <path d="M765 180H1160" stroke="#263B72"/>
+
+  <!-- Email -->
+  <rect x="767" y="201" width="23" height="16" rx="2"
+        fill="none" stroke="#4D8DFF" stroke-width="1.7"/>
+  <path d="M768 203L778.5 211L789 203"
+        fill="none" stroke="#4D8DFF" stroke-width="1.5"/>
+  <text x="800" y="207" font-family="monospace" font-size="12" fill="#A78BFA">EMAIL</text>
+  <text x="800" y="225" font-family="monospace" font-size="10" fill="#72A7FF">shahin.id5638@gmail.com</text>
+
+  <path d="M765 245H1160" stroke="#263B72"/>
+  <circle cx="770" cy="269" r="3" fill="#7C5CFF"/>
+  <text x="782" y="273" font-family="monospace" font-size="10" fill="#8497BB">BUILDING AT THE INTERSECTION</text>
+  <text x="782" y="289" font-family="monospace" font-size="10" fill="#8497BB">OF BIOLOGY AND COMPUTATION</text>
+</svg>
