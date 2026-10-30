@@ -1,3 +1,9 @@
+[![English](https://img.shields.io/badge/Language-English-blue)](#)
+[![فارسی](https://img.shields.io/badge/Language-فارسی-gray)](README.fa.md)
+
+---
+
+
 <div align="center">
   <img src="assets/header.svg" alt="Shahin — Celestios | Biology × Software × Intelligence" width="100%">
 </div>
