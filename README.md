@@ -1,5 +1,5 @@
 [![English](https://img.shields.io/badge/Language-English-blue)](#)
-[![فارسی](https://img.shields.io/badge/Language-فارسی-gray)](README.fa.md)
+[![فارسی](https://img.shields.io/badge/Language-Persian-orange)](README.fa.md)
 
 ---
 
