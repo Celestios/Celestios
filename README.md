@@ -11,7 +11,7 @@
 ---
 
 
-# Hey there, I'm Shahin (Celestios) 👋
+# Hey there, I'm Shahin 👋
 
 I'm a Cellular & Molecular Biology student who fell down the rabbit hole of building software. 
 
