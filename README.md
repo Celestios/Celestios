@@ -21,7 +21,7 @@ I didn't study computer science, and I don't consider myself a career programmer
 
 ### 🚀 Things I've Built
 
-#### 🧠 **Centrode** *(Launching in a few days!)*
+#### 🧠 **Centrode** *(Just Launched!)*
 > *The Central Hub for Your Life — because your life isn't scattered, your tools are.*
 * **The Idea:** Digital life is a mess of disconnected bookmarks, notes, tasks, and open tabs[cite: 1]. Centrode brings everything—your knowledge, tasks, habits, and projects—into one connected visual environment that combines the speed of a mind map with the structure of a graph[cite: 1].
 * **How it's built:** Powered by a fast **Rust** backend and a natively compiled frontend. Unlike most modern desktop apps, it has **zero dependency on npm or heavy browser engines (no Electron!)**, keeping it lightweight and snappy.
